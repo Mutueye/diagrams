@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-20T04:02:17.724Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="XyjLn59PMDwrkEH2UDCm" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-20T04:06:24.407Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="MfEht6w5xthF8F0J1BUE" version="21.7.2" type="github">
   <diagram name="第 1 页" id="xQtrfD_Nb6HlviRhQj4i">
     <mxGraphModel dx="2902" dy="1718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,11 +44,6 @@
         <mxCell id="5VQ-BHDmZFzjsblghesp-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-39" target="5VQ-BHDmZFzjsblghesp-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-55" value="validateStatus配置onFulfilled的状态码范围&lt;br&gt;默认2xx响应成功，其他状态码响应失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5VQ-BHDmZFzjsblghesp-43">
-          <mxGeometry x="0.0145" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-39" value="在onFulfilled回调方法中设置&lt;br&gt;headers[&#39;x-access-token&#39;]等配置" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1350" y="441" width="260" height="60" as="geometry" />
         </mxCell>
@@ -85,6 +80,9 @@
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-52" value="" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1890" y="711" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-56" value="&lt;span style=&quot;font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;配置项validateStatus可配置onFulfilled的状态码范围。&lt;/span&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;默认2xx响应成功，其他状态码响应失败&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=#fece0a;fillColor=#FFCE0A;spacingTop=5;spacing=5;spacingLeft=5;spacingRight=5;spacingBottom=5;verticalAlign=middle;fontColor=#FF4C30;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="709.25" width="251" height="63.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
