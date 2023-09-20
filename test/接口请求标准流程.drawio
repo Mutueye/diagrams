@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-20T08:58:29.244Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="-9Vhm851KvEHpG-gOVdg" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-20T09:00:22.232Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="eK5axrOEQ6zUp3U4Y9HJ" version="21.7.2" type="github">
   <diagram name="第 1 页" id="xQtrfD_Nb6HlviRhQj4i">
-    <mxGraphModel dx="3731" dy="2209" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2177" dy="1288" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -308,17 +308,29 @@
         <mxCell id="5VQ-BHDmZFzjsblghesp-142" value="err.message = &lt;br&gt;‘资源不存在’" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
           <mxGeometry x="2033" y="2210" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.52;entryY=-0.024;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-151" target="5VQ-BHDmZFzjsblghesp-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-151" value="err.message = &#39;服务器繁忙，请稍后重试&#39;" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
-          <mxGeometry x="2170" y="1810" width="130" height="60" as="geometry" />
+          <mxGeometry x="2170" y="1870" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.655;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-153" target="5VQ-BHDmZFzjsblghesp-120">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-153" value="err.message =&lt;br&gt;&#39;网关错误&#39;" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
-          <mxGeometry x="2314" y="1810" width="126" height="60" as="geometry" />
+          <mxGeometry x="2314" y="1870" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.789;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-155" target="5VQ-BHDmZFzjsblghesp-120">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-155" value="err.message = &#39;服务器繁忙或维护中，请稍后重试&#39;" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
-          <mxGeometry x="2450" y="1810" width="138" height="60" as="geometry" />
+          <mxGeometry x="2450" y="1870" width="138" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.925;entryY=-0.054;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-157" target="5VQ-BHDmZFzjsblghesp-120">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-157" value="err.message =&lt;br&gt;&#39;网关超时&#39;" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
-          <mxGeometry x="2598" y="1810" width="126" height="60" as="geometry" />
+          <mxGeometry x="2598" y="1870" width="126" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-167" value="跳转登录" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1901" y="1940" width="100" height="60" as="geometry" />
