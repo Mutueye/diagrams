@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-20T08:07:37.333Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="2vW_WzjfdBPPGHyIrRMK" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-20T08:36:51.541Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="d6RQ6-SX8-Hpr3XkjuxI" version="21.7.2" type="github">
   <diagram name="第 1 页" id="xQtrfD_Nb6HlviRhQj4i">
     <mxGraphModel dx="901" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -121,20 +121,20 @@
         <mxCell id="5VQ-BHDmZFzjsblghesp-67" value="return res.data" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1590" y="1430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-72" target="5VQ-BHDmZFzjsblghesp-74">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-76" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#e0fed6;" vertex="1" connectable="0" parent="5VQ-BHDmZFzjsblghesp-75">
-          <mxGeometry x="-0.1489" y="3" relative="1" as="geometry">
-            <mxPoint x="-3" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-72" target="5VQ-BHDmZFzjsblghesp-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-79" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#e0fed6;" vertex="1" connectable="0" parent="5VQ-BHDmZFzjsblghesp-78">
           <mxGeometry x="-0.1199" relative="1" as="geometry">
             <mxPoint x="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-72" target="5VQ-BHDmZFzjsblghesp-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-134" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#e0fed6;" vertex="1" connectable="0" parent="5VQ-BHDmZFzjsblghesp-133">
+          <mxGeometry x="-0.0142" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-72" value="是否能够取&lt;br&gt;得响应的状态码&lt;br&gt;err.response &amp;amp;&amp;amp; err.response.status" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
@@ -144,84 +144,80 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-74" value="根据err.response.status状态码&lt;br&gt;分情况处理" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
-          <mxGeometry x="2170" y="1221" width="270" height="60" as="geometry" />
+          <mxGeometry x="2170" y="1430" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-77" value="" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2990" y="1003" width="233" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-86" target="5VQ-BHDmZFzjsblghesp-113">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="5VQ-BHDmZFzjsblghesp-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-86" target="5VQ-BHDmZFzjsblghesp-115">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1809" y="1830" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-86" value="400" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
-          <mxGeometry x="1779" y="1590" width="60" height="60" as="geometry" />
+          <mxGeometry x="1779" y="1690" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="5VQ-BHDmZFzjsblghesp-96" source="5VQ-BHDmZFzjsblghesp-74">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2320" y="1381" as="sourcePoint" />
+            <mxPoint x="2320" y="1481" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-125" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-96" target="5VQ-BHDmZFzjsblghesp-124">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-96" value="401" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
-          <mxGeometry x="1921" y="1590" width="60" height="60" as="geometry" />
+          <mxGeometry x="1921" y="1690" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="5VQ-BHDmZFzjsblghesp-98" source="5VQ-BHDmZFzjsblghesp-74">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2465" y="1380" as="sourcePoint" />
+            <mxPoint x="2465" y="1480" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-98" target="5VQ-BHDmZFzjsblghesp-130">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-98" value="404" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
-          <mxGeometry x="2063" y="1590" width="60" height="60" as="geometry" />
+          <mxGeometry x="2063" y="1690" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="5VQ-BHDmZFzjsblghesp-100" source="5VQ-BHDmZFzjsblghesp-74">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2382.5" y="1380" as="sourcePoint" />
+            <mxPoint x="2382.5" y="1480" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-100" value="500" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
-          <mxGeometry x="2205" y="1590" width="60" height="60" as="geometry" />
+          <mxGeometry x="2205" y="1690" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="5VQ-BHDmZFzjsblghesp-102" source="5VQ-BHDmZFzjsblghesp-74">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2416" y="1310" as="sourcePoint" />
+            <mxPoint x="2416" y="1410" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-102" value="502" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
-          <mxGeometry x="2347" y="1590" width="60" height="60" as="geometry" />
+          <mxGeometry x="2347" y="1690" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="5VQ-BHDmZFzjsblghesp-104" source="5VQ-BHDmZFzjsblghesp-74">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2255" y="1350" as="sourcePoint" />
+            <mxPoint x="2255" y="1450" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-104" value="503" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
-          <mxGeometry x="2489" y="1590" width="60" height="60" as="geometry" />
+          <mxGeometry x="2489" y="1690" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="5VQ-BHDmZFzjsblghesp-106" source="5VQ-BHDmZFzjsblghesp-74">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2356" y="1390" as="sourcePoint" />
+            <mxPoint x="2356" y="1490" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-106" value="504" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
-          <mxGeometry x="2631" y="1590" width="60" height="60" as="geometry" />
+          <mxGeometry x="2631" y="1690" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="5VQ-BHDmZFzjsblghesp-108" source="5VQ-BHDmZFzjsblghesp-74">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2350" y="1390" as="sourcePoint" />
+            <mxPoint x="2350" y="1490" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-108" value="其他" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
-          <mxGeometry x="2773" y="1590" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-113" target="5VQ-BHDmZFzjsblghesp-115">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-113" value="err.message =&lt;br&gt;&#39;请求出错&#39;" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
-          <mxGeometry x="1750" y="1730" width="118" height="60" as="geometry" />
+          <mxGeometry x="2773" y="1690" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-115" target="5VQ-BHDmZFzjsblghesp-117">
           <mxGeometry relative="1" as="geometry" />
@@ -240,25 +236,33 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-115" value="是否存在&lt;br&gt;err.response.data" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=13;" vertex="1" parent="1">
-          <mxGeometry x="1738.13" y="1870" width="140" height="140" as="geometry" />
+          <mxGeometry x="1739" y="1810" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-117" value="return err.response.data" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=13;" vertex="1" parent="1">
-          <mxGeometry x="1550" y="1910" width="120" height="60" as="geometry" />
+          <mxGeometry x="1590" y="1980" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-120" value="1. 显示错误信息：err.message&lt;br&gt;2. 修改code，标记为已处理：err.code = &#39;handled&#39;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3. 抛出错误：return Promise.reject(err)" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=13;" vertex="1" parent="1">
-          <mxGeometry x="2148" y="2100" width="314" height="80" as="geometry" />
+          <mxGeometry x="1652" y="2140" width="314" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-124" target="5VQ-BHDmZFzjsblghesp-128">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-124" value="err.message =&lt;br&gt;&#39;请先登录&#39;" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
-          <mxGeometry x="1892" y="1730" width="118" height="60" as="geometry" />
+          <mxGeometry x="1892" y="1850" width="118" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-128" value="跳转登录" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
-          <mxGeometry x="1891" y="1830" width="120" height="60" as="geometry" />
+          <mxGeometry x="1891" y="2000" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-130" value="err.message =&lt;br&gt;&#39;资源不存在&#39;" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
-          <mxGeometry x="2034" y="1730" width="118" height="60" as="geometry" />
+          <mxGeometry x="2034" y="1850" width="118" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-136" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-132" target="5VQ-BHDmZFzjsblghesp-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2305" y="1405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-132" value="如果err.response.data.message存在&lt;br&gt;err.message = err.response.data.message" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2170" y="1221" width="270" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
