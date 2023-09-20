@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-20T04:08:07.632Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="eWLulDF0soexBZeTmr8M" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-20T04:08:43.805Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="2DJvnWHu49MabHqH2rza" version="21.7.2" type="github">
   <diagram name="第 1 页" id="xQtrfD_Nb6HlviRhQj4i">
-    <mxGraphModel dx="2009" dy="1189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="901" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,7 +64,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-42" value="响应拦截器&lt;br&gt;interceptors.response" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1389" y="650" width="182" height="182" as="geometry" />
+          <mxGeometry x="1389" y="590" width="182" height="182" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-46" value="请求拦截器&lt;br&gt;interceptors.request" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1389" y="178" width="182" height="182" as="geometry" />
@@ -73,16 +73,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-47" value="onFulfilled: (res: AxiosResponse&amp;lt;T&amp;gt;) =&amp;gt; AxiosResponse&amp;lt;T&amp;gt; | Promise&amp;lt;AxiosResponse&amp;lt;T&amp;gt; | null | undefined" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="973" width="620" height="60" as="geometry" />
+          <mxGeometry x="1170" y="913" width="620" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-50" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1389" y="1150" width="182" height="182" as="geometry" />
+          <mxGeometry x="1389" y="1090" width="182" height="182" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-52" value="" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1890" y="711" width="120" height="60" as="geometry" />
+          <mxGeometry x="1890" y="651" width="490" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-56" value="&lt;span style=&quot;font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;配置项validateStatus可配置onFulfilled的状态码范围。&lt;/span&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;默认2xx响应成功，其他状态码响应失败&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=#fece0a;fillColor=#FFCE0A;spacingTop=5;spacing=5;spacingLeft=5;spacingRight=5;spacingBottom=5;verticalAlign=middle;fontColor=#FF4C30;strokeColor=#ff4c30;rounded=0;shadow=0;glass=0;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="709.25" width="251" height="63.5" as="geometry" />
+          <mxGeometry x="1110" y="649.25" width="251" height="63.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
