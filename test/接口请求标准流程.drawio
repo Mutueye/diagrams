@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-20T03:18:40.331Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="eGxp5EMTMn4w7StZCPHe" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-20T03:25:11.536Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="awaJyEbiEdeWWrf-cf1G" version="21.7.2" type="github">
   <diagram name="第 1 页" id="xQtrfD_Nb6HlviRhQj4i">
-    <mxGraphModel dx="1306" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2902" dy="1718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,38 +10,48 @@
         <mxCell id="5VQ-BHDmZFzjsblghesp-24" value="&lt;div style=&quot;font-family: &amp;quot;Fira Code&amp;quot;, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 27px;&quot;&gt;&lt;div style=&quot;line-height: 27px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;line-height: 27px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#4f6875&quot;&gt;/** Aixos响应标准结构体 */&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;export&lt;span style=&quot;color: #eeffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #c792ea;&quot;&gt;interface&lt;/span&gt;&lt;span style=&quot;color: #eeffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ffcb6b;&quot;&gt;AxiosResponse&lt;/span&gt;&lt;span style=&quot;color: #89ddf3;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #82aaff;&quot;&gt;T&lt;/span&gt;&lt;span style=&quot;color: #eeffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #89ddf3;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #eeffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ffcb6b;&quot;&gt;any&lt;/span&gt;&lt;span style=&quot;color: #89ddf3;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color: #eeffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #82aaff;&quot;&gt;D&lt;/span&gt;&lt;span style=&quot;color: #eeffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #89ddf3;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #eeffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ffcb6b;&quot;&gt;any&lt;/span&gt;&lt;span style=&quot;color: #89ddf3;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #eeffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #89ddf3;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(137, 221, 243);&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;font color=&quot;#4f6875&quot;&gt;/** 返回的数据(即浏览器中网络响应看到的数据) */&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #eeffff;&quot;&gt;&amp;nbsp; data&lt;/span&gt;&lt;span style=&quot;color: #89ddf3;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #eeffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #82aaff;&quot;&gt;T&lt;/span&gt;&lt;span style=&quot;color: #89ddf3;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(137, 221, 243);&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#4f6875&quot;&gt;/** 状态码 */&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #eeffff;&quot;&gt;&amp;nbsp; status&lt;/span&gt;&lt;span style=&quot;color: #89ddf3;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #eeffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ffcb6b;&quot;&gt;number&lt;/span&gt;&lt;span style=&quot;color: #89ddf3;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #eeffff;&quot;&gt;&amp;nbsp; statusText&lt;/span&gt;&lt;span style=&quot;color: #89ddf3;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #eeffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ffcb6b;&quot;&gt;string&lt;/span&gt;&lt;span style=&quot;color: #89ddf3;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #eeffff;&quot;&gt;&amp;nbsp; headers&lt;/span&gt;&lt;span style=&quot;color: #89ddf3;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #eeffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #82aaff;&quot;&gt;RawAxiosResponseHeaders&lt;/span&gt;&lt;span style=&quot;color: #eeffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #89ddf3;&quot;&gt;|&lt;/span&gt;&lt;span style=&quot;color: #eeffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #82aaff;&quot;&gt;AxiosResponseHeaders&lt;/span&gt;&lt;span style=&quot;color: #89ddf3;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #eeffff;&quot;&gt;&amp;nbsp; config&lt;/span&gt;&lt;span style=&quot;color: #89ddf3;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #eeffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #82aaff;&quot;&gt;InternalAxiosRequestConfig&lt;/span&gt;&lt;span style=&quot;color: #89ddf3;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #82aaff;&quot;&gt;D&lt;/span&gt;&lt;span style=&quot;color: #89ddf3;&quot;&gt;&amp;gt;;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #eeffff;&quot;&gt;&amp;nbsp; request&lt;/span&gt;&lt;span style=&quot;color: #89ddf3;&quot;&gt;?:&lt;/span&gt;&lt;span style=&quot;color: #eeffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ffcb6b;&quot;&gt;any&lt;/span&gt;&lt;span style=&quot;color: #89ddf3;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #89ddf3;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;perimeter=rectanglePerimeter;container=0;backgroundOutline=0;comic=0;labelBorderColor=none;verticalAlign=top;fontStyle=0;spacingTop=10;labelBackgroundColor=#263238;spacing=10;spacingLeft=10;spacingBottom=10;spacingRight=10;fillColor=#263238;" vertex="1" parent="1">
           <mxGeometry x="80" y="120" width="680" height="385" as="geometry" />
         </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-25" target="5VQ-BHDmZFzjsblghesp-28">
+        <mxCell id="5VQ-BHDmZFzjsblghesp-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.502;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-25" target="5VQ-BHDmZFzjsblghesp-46">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1200" y="200" as="targetPoint" />
+            <mxPoint x="1200" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-25" value="发起请求" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="5VQ-BHDmZFzjsblghesp-25" value="Axios实例&lt;br&gt;发起请求" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1140" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-28" target="5VQ-BHDmZFzjsblghesp-33">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="5VQ-BHDmZFzjsblghesp-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.024;exitY=0.498;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-46" target="5VQ-BHDmZFzjsblghesp-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="289" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-38" value="onRejected&lt;br&gt;请求失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5VQ-BHDmZFzjsblghesp-34">
           <mxGeometry x="-0.0276" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-28" target="5VQ-BHDmZFzjsblghesp-39">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="5VQ-BHDmZFzjsblghesp-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="5VQ-BHDmZFzjsblghesp-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="378" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-41" value="onFulfilled&lt;br&gt;请求成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5VQ-BHDmZFzjsblghesp-40">
           <mxGeometry x="-0.045" y="4" relative="1" as="geometry">
             <mxPoint x="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-28" value="请求拦截器&lt;br&gt;intercetpors.request" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="200" width="180" height="178" as="geometry" />
-        </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-33" value="抛出错误&lt;br&gt;Promise.reject(reason)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="860" y="259" width="160" height="60" as="geometry" />
+          <mxGeometry x="840" y="259" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-39" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="461" width="160" height="60" as="geometry" />
+        <mxCell id="5VQ-BHDmZFzjsblghesp-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-39" target="5VQ-BHDmZFzjsblghesp-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-39" value="在onFulfilled回调方法中&lt;br&gt;配置x-access-token等&lt;br&gt;headers配置" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="461" width="160" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-42" value="响应拦截器&lt;br&gt;interceptors.response" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1109" y="590" width="182" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-46" value="请求拦截器&lt;br&gt;interceptors.request" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1109" y="198" width="182" height="182" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
