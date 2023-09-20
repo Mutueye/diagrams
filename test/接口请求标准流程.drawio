@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-20T03:28:37.815Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="xBZ7CJBo55nXMxbPoG6K" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-20T03:35:03.745Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="vUgCLiKv52gL77pI8LfU" version="21.7.2" type="github">
   <diagram name="第 1 页" id="xQtrfD_Nb6HlviRhQj4i">
-    <mxGraphModel dx="1536" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1306" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,14 +44,25 @@
         <mxCell id="5VQ-BHDmZFzjsblghesp-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-39" target="5VQ-BHDmZFzjsblghesp-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-39" value="在onFulfilled回调方法中配置&lt;br&gt;x-access-token等headers配置" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="5VQ-BHDmZFzjsblghesp-39" value="在onFulfilled回调方法中设置&lt;br&gt;headers[&#39;x-access-token&#39;]等配置" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1200" y="491" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-42" target="5VQ-BHDmZFzjsblghesp-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-49" value="onFulfilled&lt;br&gt;响应成功&lt;br&gt;200 &amp;lt;= status &amp;lt; 300" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5VQ-BHDmZFzjsblghesp-48">
+          <mxGeometry x="-0.1915" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-42" value="响应拦截器&lt;br&gt;interceptors.response" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1239" y="620" width="182" height="182" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-46" value="请求拦截器&lt;br&gt;interceptors.request" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1239" y="228" width="182" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-47" value="" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="943" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
