@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-09-20T10:29:34.297Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="eCAuReKp62TlPF93ea7l" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-20T10:39:20.325Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="7PL2h5jdo4AjbKpRKgix" version="21.7.2" type="github">
   <diagram name="第 1 页" id="xQtrfD_Nb6HlviRhQj4i">
-    <mxGraphModel dx="1741" dy="1031" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2177" dy="1288" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5VQ-BHDmZFzjsblghesp-321" value="Promise.catch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FED8D8;strokeColor=none;verticalAlign=top;align=left;spacingLeft=5;fontStyle=1;fontSize=16;fontColor=#222222;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="2670" width="740" height="600" as="geometry" />
+        </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-303" value="Promise.then" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0fed6;strokeColor=none;verticalAlign=top;align=left;spacingLeft=5;fontStyle=1;fontSize=16;fontColor=#222222;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="2670" width="740" height="690" as="geometry" />
+          <mxGeometry x="1120" y="2670" width="740" height="600" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-70" value="响应拦截器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFDFC9;strokeColor=none;verticalAlign=top;align=left;spacingLeft=5;fontStyle=1;fontSize=16;fontColor=#222222;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
           <mxGeometry x="1120" y="635" width="2230" height="1985" as="geometry" />
@@ -201,6 +204,9 @@
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-117" value="return err.response" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;arcSize=13;" vertex="1" parent="1">
           <mxGeometry x="1550" y="1960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-323" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-120" target="5VQ-BHDmZFzjsblghesp-322">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-120" value="1. 显示错误信息：err.message&lt;br&gt;2. 修改code，标记为已处理：err.code = &#39;handled&#39;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3. 抛出错误：return Promise.reject(err)" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;arcSize=13;" vertex="1" parent="1">
           <mxGeometry x="1750" y="2450" width="1120" height="80" as="geometry" />
@@ -520,8 +526,49 @@
         <mxCell id="5VQ-BHDmZFzjsblghesp-315" value="返回处理后的数据" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1393.33" y="3150" width="133.33" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-324" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-319" target="5VQ-BHDmZFzjsblghesp-322">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-319" value="抛出错误&lt;br&gt;return Promis.reject(err: AxiosError&amp;lt;T&amp;gt;)" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1580" y="3000" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-326" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-322" target="5VQ-BHDmZFzjsblghesp-325">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-322" value="err: AxiosError&amp;lt;T&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;arcSize=13;" vertex="1" parent="1">
+          <mxGeometry x="2250" y="2710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-330" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-325" target="5VQ-BHDmZFzjsblghesp-337">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2310.005" y="3090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-331" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#fed8d8;" vertex="1" connectable="0" parent="5VQ-BHDmZFzjsblghesp-330">
+          <mxGeometry x="-0.0942" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-333" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-325" target="5VQ-BHDmZFzjsblghesp-332">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-334" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#fed8d8;" vertex="1" connectable="0" parent="5VQ-BHDmZFzjsblghesp-333">
+          <mxGeometry x="-0.12" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-325" value="错误信息是否已经处理&lt;br&gt;err.code === &#39;handled&#39;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;arcSize=13;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="2843" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-336" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-332" target="5VQ-BHDmZFzjsblghesp-337">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2376.6700000000005" y="3130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-332" value="根据业务逻辑处理错误信息：弹出错误消息或其他操作" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;arcSize=13;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="2893" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-337" value="结束错误处理&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;return Promise.reject(err)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=125;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="3120" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
