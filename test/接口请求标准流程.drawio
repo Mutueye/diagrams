@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-09-20T07:54:57.827Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="5ENPBbS71pfa1XHVvU53" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-20T07:56:16.577Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="9MqSpJSGvKEahydeA5Tr" version="21.7.2" type="github">
   <diagram name="第 1 页" id="xQtrfD_Nb6HlviRhQj4i">
-    <mxGraphModel dx="3731" dy="2209" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5224" dy="3092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="5VQ-BHDmZFzjsblghesp-70" value="响应拦截器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E0FFD6;strokeColor=none;verticalAlign=top;align=left;spacingLeft=5;fontStyle=1;fontSize=16;fontColor=#222222;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="635" width="2400" height="1450" as="geometry" />
+          <mxGeometry x="1120" y="635" width="2400" height="1955" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-57" value="请求拦截器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ccfcff;strokeColor=none;verticalAlign=top;align=left;spacingLeft=5;fontStyle=1;fontSize=16;fontColor=#222222;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
           <mxGeometry x="1120" y="200" width="740" height="390" as="geometry" />
@@ -211,8 +211,14 @@
         <mxCell id="5VQ-BHDmZFzjsblghesp-108" value="其他" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
           <mxGeometry x="2773" y="1590" width="60" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-113" target="5VQ-BHDmZFzjsblghesp-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-113" value="err.message =&lt;br&gt;&#39;请求出错&#39;" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
           <mxGeometry x="1758" y="1730" width="102" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5VQ-BHDmZFzjsblghesp-115" value="是否存在&lt;br&gt;err.response.data" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1728" y="1860" width="162" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
