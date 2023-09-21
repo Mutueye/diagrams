@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T08:10:31.664Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="UjJPjaGPQ3hrAS3I06ci" version="21.7.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-21T09:11:30.132Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="K6ZX0Kda3yx41UPC64m6" version="21.7.2" type="github" pages="3">
   <diagram id="56KtloAM9V0VTO1P35NT" name="1 数据结构梳理">
     <mxGraphModel dx="1866" dy="-65" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -77,7 +77,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UqLh-eRut1HAPvm6Cmkq" name="2 请求流程概况图">
-    <mxGraphModel dx="1136" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1045" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -122,14 +122,31 @@
         <mxCell id="7YeG37wwZITT4TwZxwtX-7" value="设置请求配置" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="140" y="510" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="5e1_cS6_qBiiAfwvs-Qn-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7YeG37wwZITT4TwZxwtX-13" target="5e1_cS6_qBiiAfwvs-Qn-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5e1_cS6_qBiiAfwvs-Qn-3" value="成功&lt;br&gt;onFullfiled" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5e1_cS6_qBiiAfwvs-Qn-2">
+          <mxGeometry x="-0.0899" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7YeG37wwZITT4TwZxwtX-13" value="响应拦截器&lt;br&gt;interceptors.response" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="120" y="690" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5e1_cS6_qBiiAfwvs-Qn-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5e1_cS6_qBiiAfwvs-Qn-1" target="5e1_cS6_qBiiAfwvs-Qn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5e1_cS6_qBiiAfwvs-Qn-1" value="返回AxiosResponse&amp;lt;T&amp;gt;&lt;br&gt;return res" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="980" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5e1_cS6_qBiiAfwvs-Qn-4" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1120" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="3 请求详细处理流程" id="xQtrfD_Nb6HlviRhQj4i">
-    <mxGraphModel dx="-35" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="624" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -327,7 +344,7 @@
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-115" value="是否存在&lt;br&gt;err.response.data" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;arcSize=13;" vertex="1" parent="1">
+        <mxCell id="5VQ-BHDmZFzjsblghesp-115" value="是否存在&lt;br&gt;err.response.data&lt;br&gt;且code &amp;gt; 4000000" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;arcSize=13;" vertex="1" parent="1">
           <mxGeometry x="1739" y="1920" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-338" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;jumpStyle=arc;jumpSize=12;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-117" target="5VQ-BHDmZFzjsblghesp-307">
