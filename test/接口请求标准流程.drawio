@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T01:34:46.344Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="pIBnZ8InwTtOFt552fzf" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T01:39:04.330Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="mvNRpvqUYgo9uKqFbq4O" version="21.7.2" type="github">
   <diagram name="第 1 页" id="xQtrfD_Nb6HlviRhQj4i">
-    <mxGraphModel dx="1741" dy="1031" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="8707" dy="5153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -54,8 +54,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="930" y="1780" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1020" y="319" />
-              <mxPoint x="1020" y="2490" />
+              <mxPoint x="1060" y="319" />
+              <mxPoint x="1060" y="2490" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -93,7 +93,7 @@
         <mxCell id="5VQ-BHDmZFzjsblghesp-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-47" target="5VQ-BHDmZFzjsblghesp-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-47" value="onFulfilled: (res: AxiosResponse&amp;lt;T&amp;gt;) =&amp;gt; AxiosResponse&amp;lt;T&amp;gt; | Promise&amp;lt;AxiosResponse&amp;lt;T&amp;gt; | null | undefined" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="5VQ-BHDmZFzjsblghesp-47" value="onFulfilled: (res: AxiosResponse&amp;lt;T&amp;gt;) =&amp;gt; AxiosResponse&amp;lt;T&amp;gt; | Promise&amp;lt;AxiosResponse&amp;lt;T&amp;gt; | null | undefined" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;fillColor=#e1fdd6;" vertex="1" parent="1">
           <mxGeometry x="1340" y="1003" width="620" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-50" target="5VQ-BHDmZFzjsblghesp-58">
@@ -118,7 +118,7 @@
         <mxCell id="5VQ-BHDmZFzjsblghesp-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-52" target="5VQ-BHDmZFzjsblghesp-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-52" value="onRejected: (err: AxiosError&amp;lt;T&amp;gt;) =&amp;gt; T | Promise&amp;lt;never&amp;gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="5VQ-BHDmZFzjsblghesp-52" value="onRejected: (err: AxiosError&amp;lt;T&amp;gt;) =&amp;gt; T | Promise&amp;lt;never&amp;gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;fillColor=#fed8d8;" vertex="1" parent="1">
           <mxGeometry x="2060" y="741" width="490" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-56" value="&lt;span style=&quot;font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;配置项validateStatus可配置onFulfilled的状态码范围。&lt;/span&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;默认2xx响应成功，其他状态码响应失败&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FFDEB3;spacingTop=5;spacing=5;spacingLeft=5;spacingRight=5;spacingBottom=5;verticalAlign=middle;fontColor=#FF6F00;strokeColor=#FF6F00;rounded=0;shadow=0;glass=0;" vertex="1" parent="1">
@@ -127,13 +127,13 @@
         <mxCell id="5VQ-BHDmZFzjsblghesp-241" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-58" target="5VQ-BHDmZFzjsblghesp-120">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-58" value="构造AxiosError数据：err" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="5VQ-BHDmZFzjsblghesp-58" value="构造AxiosError数据：err" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;fillColor=#fed8d8;" vertex="1" parent="1">
           <mxGeometry x="1180" y="1430" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-308" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;jumpSize=12;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-67" target="5VQ-BHDmZFzjsblghesp-307">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-67" value="return res" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="5VQ-BHDmZFzjsblghesp-67" value="return res" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;fillColor=#e1fcd6;" vertex="1" parent="1">
           <mxGeometry x="1400" y="1960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-72" target="5VQ-BHDmZFzjsblghesp-77">
@@ -158,13 +158,13 @@
         <mxCell id="5VQ-BHDmZFzjsblghesp-279" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-74" target="5VQ-BHDmZFzjsblghesp-248">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-74" value="根据err.response.status状态码&lt;br&gt;分情况处理" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
+        <mxCell id="5VQ-BHDmZFzjsblghesp-74" value="根据err.response.status状态码&lt;br&gt;分情况处理" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;arcSize=8;fillColor=#fed8d8;" vertex="1" parent="1">
           <mxGeometry x="2170" y="1430" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-238" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-77" target="5VQ-BHDmZFzjsblghesp-203">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-77" value="根据err.code，处理常见的axios错&lt;br&gt;误，返回中文报错信息" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="5VQ-BHDmZFzjsblghesp-77" value="根据err.code，处理常见的axios错&lt;br&gt;误，返回中文报错信息" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;fillColor=#fed8d8;" vertex="1" parent="1">
           <mxGeometry x="2850" y="1003" width="233" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-252" target="5VQ-BHDmZFzjsblghesp-115">
@@ -205,13 +205,13 @@
         <mxCell id="5VQ-BHDmZFzjsblghesp-338" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;jumpStyle=arc;jumpSize=12;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-117" target="5VQ-BHDmZFzjsblghesp-307">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-117" value="return err.response" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;arcSize=13;" vertex="1" parent="1">
+        <mxCell id="5VQ-BHDmZFzjsblghesp-117" value="return err.response" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;arcSize=13;fillColor=#e1fbd6;" vertex="1" parent="1">
           <mxGeometry x="1550" y="1960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-323" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-120" target="5VQ-BHDmZFzjsblghesp-322">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-120" value="1. 显示错误信息：err.message&lt;br&gt;2. 修改code，标记为已处理：err.code = &#39;handled&#39;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3. 抛出错误：return Promise.reject(err)" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;arcSize=13;" vertex="1" parent="1">
+        <mxCell id="5VQ-BHDmZFzjsblghesp-120" value="1. 显示错误信息：err.message&lt;br&gt;2. 修改code，标记为已处理：err.code = &#39;handled&#39;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3. 抛出错误：return Promise.reject(err)" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;arcSize=13;fillColor=#fed8d8;" vertex="1" parent="1">
           <mxGeometry x="1750" y="2450" width="1120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-166" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-255" target="5VQ-BHDmZFzjsblghesp-167">
@@ -225,7 +225,7 @@
             <mxPoint x="2305" y="1405" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-132" value="如果err.response.data.message存在&lt;br&gt;err.message = err.response.data.message" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="5VQ-BHDmZFzjsblghesp-132" value="如果err.response.data.message存在&lt;br&gt;err.message = err.response.data.message" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fed8d8;" vertex="1" parent="1">
           <mxGeometry x="2170" y="1221" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-140" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-137" target="5VQ-BHDmZFzjsblghesp-139">
@@ -252,13 +252,13 @@
             <mxPoint x="2010" y="2420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-139" value="err.message =&lt;br&gt;err.response.data.message" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
+        <mxCell id="5VQ-BHDmZFzjsblghesp-139" value="err.message =&lt;br&gt;err.response.data.message" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;arcSize=8;fillColor=#fed8d8;" vertex="1" parent="1">
           <mxGeometry x="1893" y="2300" width="174" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.348;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-142" target="5VQ-BHDmZFzjsblghesp-120">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-142" value="err.message = &lt;br&gt;‘资源不存在’" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;arcSize=8;" vertex="1" parent="1">
+        <mxCell id="5VQ-BHDmZFzjsblghesp-142" value="err.message = &lt;br&gt;‘资源不存在’" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;arcSize=8;fillColor=#fed8d8;" vertex="1" parent="1">
           <mxGeometry x="2080" y="2300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-167" value="跳转登录" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
@@ -580,7 +580,7 @@
           <mxGeometry x="80" y="545" width="390" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-346" value="AxiosError&amp;lt;T, D&amp;gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="1282" width="240" height="182" as="geometry" />
+          <mxGeometry x="440" y="1310" width="240" height="182" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-347" value="message: string" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5VQ-BHDmZFzjsblghesp-346">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
@@ -601,7 +601,7 @@
           <mxGeometry y="156" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-354" value="AxiosResponse&amp;lt;T, D&amp;gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="1503" width="240" height="182" as="geometry" />
+          <mxGeometry x="160" y="1531" width="240" height="182" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-355" value="data: T" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5VQ-BHDmZFzjsblghesp-354">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
@@ -622,7 +622,7 @@
           <mxGeometry y="156" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-369" value="QstResult&amp;lt;T&amp;gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="1572" width="240" height="182" as="geometry" />
+          <mxGeometry x="440" y="1600" width="240" height="182" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-370" value="data?: T" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="5VQ-BHDmZFzjsblghesp-369">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
