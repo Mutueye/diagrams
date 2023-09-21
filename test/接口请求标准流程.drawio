@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T01:49:05.275Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="f-CocqUMawz4gKUptZa3" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T01:50:22.965Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="prSIAwjnTrU0j-CbtlWD" version="21.7.2" type="github">
   <diagram name="第 1 页" id="xQtrfD_Nb6HlviRhQj4i">
     <mxGraphModel dx="2177" dy="1288" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -261,8 +261,8 @@
         <mxCell id="5VQ-BHDmZFzjsblghesp-142" value="err.message = &lt;br&gt;‘资源不存在’" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;arcSize=8;fillColor=#fed8d8;" vertex="1" parent="1">
           <mxGeometry x="2080" y="2300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5VQ-BHDmZFzjsblghesp-167" value="跳转登录" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1850" y="1790" width="100" height="60" as="geometry" />
+        <mxCell id="5VQ-BHDmZFzjsblghesp-167" value="跳转登录&lt;br&gt;或者返回游客&lt;br&gt;页面等其他&lt;br&gt;处理方式" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1833.33" y="1780" width="133.33" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5VQ-BHDmZFzjsblghesp-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5VQ-BHDmZFzjsblghesp-203" target="5VQ-BHDmZFzjsblghesp-120">
           <mxGeometry relative="1" as="geometry" />
