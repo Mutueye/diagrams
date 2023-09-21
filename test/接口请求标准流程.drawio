@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T07:57:49.270Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="5MoYCk7bRIsNd-kl8gr1" version="21.7.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-21T08:03:53.601Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Tf17H1zqokv9ijJLVvdI" version="21.7.2" type="github" pages="3">
   <diagram id="56KtloAM9V0VTO1P35NT" name="1 数据结构梳理">
     <mxGraphModel dx="1866" dy="-65" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -76,7 +76,46 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="2 请求详细处理流程" id="xQtrfD_Nb6HlviRhQj4i">
+  <diagram id="UqLh-eRut1HAPvm6Cmkq" name="2 请求流程概况图">
+    <mxGraphModel dx="2009" dy="1189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7YeG37wwZITT4TwZxwtX-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7YeG37wwZITT4TwZxwtX-1" target="7YeG37wwZITT4TwZxwtX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7YeG37wwZITT4TwZxwtX-6" value="失败&lt;br&gt;onRejected" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7YeG37wwZITT4TwZxwtX-5">
+          <mxGeometry x="-0.1063" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7YeG37wwZITT4TwZxwtX-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7YeG37wwZITT4TwZxwtX-1" target="7YeG37wwZITT4TwZxwtX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7YeG37wwZITT4TwZxwtX-9" value="成功&lt;br&gt;onFulfilled" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7YeG37wwZITT4TwZxwtX-8">
+          <mxGeometry x="-0.1981" y="-3" relative="1" as="geometry">
+            <mxPoint x="3" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7YeG37wwZITT4TwZxwtX-1" value="请求拦截器&lt;br&gt;interceptors.request" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="334" y="200" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7YeG37wwZITT4TwZxwtX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7YeG37wwZITT4TwZxwtX-2" target="7YeG37wwZITT4TwZxwtX-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7YeG37wwZITT4TwZxwtX-2" value="发起请求" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="40" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7YeG37wwZITT4TwZxwtX-4" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="640" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7YeG37wwZITT4TwZxwtX-7" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="354" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="3 请求详细处理流程" id="xQtrfD_Nb6HlviRhQj4i">
     <mxGraphModel dx="806" dy="966" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
