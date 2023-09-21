@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T01:52:04.552Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ZkUuOzo2uTsRT-7ihx-m" version="21.7.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-21T01:52:17.183Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="LRtgVQP_LkQhImk644BM" version="21.7.2" type="github" pages="2">
   <diagram id="56KtloAM9V0VTO1P35NT" name="1 数据结构梳理">
-    <mxGraphModel dx="4353" dy="2577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2612" dy="1546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
           <mxGeometry x="80" y="545" width="390" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pfrMh35eMKwiaxyOUfGT-5" value="AxiosError&amp;lt;T, D&amp;gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="434" y="1169" width="240" height="182" as="geometry" />
+          <mxGeometry x="434" y="1240" width="240" height="182" as="geometry" />
         </mxCell>
         <mxCell id="pfrMh35eMKwiaxyOUfGT-6" value="message: string" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pfrMh35eMKwiaxyOUfGT-5">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
@@ -38,7 +38,7 @@
           <mxGeometry y="156" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pfrMh35eMKwiaxyOUfGT-12" value="AxiosResponse&amp;lt;T, D&amp;gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="154" y="1390" width="240" height="182" as="geometry" />
+          <mxGeometry x="154" y="1461" width="240" height="182" as="geometry" />
         </mxCell>
         <mxCell id="pfrMh35eMKwiaxyOUfGT-13" value="data: T" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pfrMh35eMKwiaxyOUfGT-12">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
@@ -59,7 +59,7 @@
           <mxGeometry y="156" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pfrMh35eMKwiaxyOUfGT-19" value="QstResult&amp;lt;T&amp;gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="434" y="1459" width="240" height="182" as="geometry" />
+          <mxGeometry x="434" y="1530" width="240" height="182" as="geometry" />
         </mxCell>
         <mxCell id="pfrMh35eMKwiaxyOUfGT-20" value="data?: T" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pfrMh35eMKwiaxyOUfGT-19">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
