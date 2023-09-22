@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T08:38:52.600Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="XmbCSq1vS7PfbmNboO_v" version="21.7.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-22T08:40:11.712Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="5OdDULwmmOiDLVW0ktyP" version="21.7.2" type="github" pages="4">
   <diagram id="56KtloAM9V0VTO1P35NT" name="1 数据结构梳理">
     <mxGraphModel dx="1866" dy="-65" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -766,7 +766,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="requestWrapper请求处理流程" id="g098aqi8lCMxI5Y2zo_i">
-    <mxGraphModel dx="4397" dy="3092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="5703" dy="3865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-0" />
         <mxCell id="rrakqYdKMgCXBTjs6uMg-1" parent="rrakqYdKMgCXBTjs6uMg-0" />
@@ -885,9 +885,6 @@
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-31" value="Promise.catch: (err: AxiosError&amp;lt;T&amp;gt;) =&amp;gt; Promise.reject(err)" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;fillColor=#fed8d8;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
           <mxGeometry x="2060" y="741" width="490" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="rrakqYdKMgCXBTjs6uMg-32" value="&lt;span style=&quot;font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;配置项validateStatus可配置onFulfilled的状态码范围。&lt;/span&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;默认2xx响应成功，其他状态码响应失败&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FFDEB3;spacingTop=5;spacing=5;spacingLeft=5;spacingRight=5;spacingBottom=5;verticalAlign=middle;fontColor=#FF6F00;strokeColor=#FF6F00;rounded=0;shadow=0;glass=0;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
-          <mxGeometry x="1299" y="890" width="251" height="63.5" as="geometry" />
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="rrakqYdKMgCXBTjs6uMg-1" source="rrakqYdKMgCXBTjs6uMg-34" target="rrakqYdKMgCXBTjs6uMg-56">
           <mxGeometry relative="1" as="geometry" />
