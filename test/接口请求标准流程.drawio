@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T08:14:43.354Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="YS6sSbVP_VvpSerVzc9R" version="21.7.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-22T08:16:07.660Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="LVaqb50LrhkDDSseKVqi" version="21.7.2" type="github" pages="4">
   <diagram id="56KtloAM9V0VTO1P35NT" name="1 数据结构梳理">
     <mxGraphModel dx="1866" dy="-65" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -766,7 +766,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="requestWrapper请求处理流程" id="g098aqi8lCMxI5Y2zo_i">
-    <mxGraphModel dx="417" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="479" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-0" />
         <mxCell id="rrakqYdKMgCXBTjs6uMg-1" parent="rrakqYdKMgCXBTjs6uMg-0" />
@@ -776,7 +776,7 @@
         <mxCell id="rrakqYdKMgCXBTjs6uMg-3" value="Promise.then" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0fed6;strokeColor=#BCFEAF;verticalAlign=top;align=left;spacingLeft=5;fontStyle=1;fontSize=20;fontColor=#222222;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
           <mxGeometry x="1120" y="2670" width="740" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="rrakqYdKMgCXBTjs6uMg-4" value="requestWrapper" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2f3f9;strokeColor=#d2d3d9;verticalAlign=top;align=left;spacingLeft=5;fontStyle=1;fontSize=20;fontColor=#222222;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
+        <mxCell id="rrakqYdKMgCXBTjs6uMg-4" value="requestWrapper 处理响应和错误数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2f3f9;strokeColor=#d2d3d9;verticalAlign=top;align=left;spacingLeft=5;fontStyle=1;fontSize=20;fontColor=#222222;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
           <mxGeometry x="1120" y="635" width="2230" height="1985" as="geometry" />
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-5" value="请求拦截器：axios.interceptors.request" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2f3f9;strokeColor=#d2d3d9;verticalAlign=top;align=left;spacingLeft=5;fontStyle=1;fontSize=20;fontColor=#222222;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
@@ -898,7 +898,7 @@
         <mxCell id="rrakqYdKMgCXBTjs6uMg-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;jumpSize=12;" edge="1" parent="rrakqYdKMgCXBTjs6uMg-1" source="rrakqYdKMgCXBTjs6uMg-36" target="rrakqYdKMgCXBTjs6uMg-127">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rrakqYdKMgCXBTjs6uMg-36" value="return res" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;fillColor=#e1fcd6;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
+        <mxCell id="rrakqYdKMgCXBTjs6uMg-36" value="return res.data" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;fillColor=#e1fcd6;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
           <mxGeometry x="1400" y="1960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rrakqYdKMgCXBTjs6uMg-1" source="rrakqYdKMgCXBTjs6uMg-41" target="rrakqYdKMgCXBTjs6uMg-45">
@@ -970,7 +970,7 @@
         <mxCell id="rrakqYdKMgCXBTjs6uMg-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;jumpStyle=arc;jumpSize=12;" edge="1" parent="rrakqYdKMgCXBTjs6uMg-1" source="rrakqYdKMgCXBTjs6uMg-54" target="rrakqYdKMgCXBTjs6uMg-127">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rrakqYdKMgCXBTjs6uMg-54" value="return err.response" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;arcSize=13;fillColor=#e1fbd6;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
+        <mxCell id="rrakqYdKMgCXBTjs6uMg-54" value="return err.response.data" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;arcSize=13;fillColor=#e1fbd6;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
           <mxGeometry x="1550" y="1960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rrakqYdKMgCXBTjs6uMg-1" source="rrakqYdKMgCXBTjs6uMg-56" target="rrakqYdKMgCXBTjs6uMg-138">
