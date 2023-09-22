@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T08:35:55.670Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="xSLWoUXeZIA0i_sRfNz9" version="21.7.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-22T08:38:52.600Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="XmbCSq1vS7PfbmNboO_v" version="21.7.2" type="github" pages="4">
   <diagram id="56KtloAM9V0VTO1P35NT" name="1 数据结构梳理">
     <mxGraphModel dx="1866" dy="-65" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -766,15 +766,15 @@
     </mxGraphModel>
   </diagram>
   <diagram name="requestWrapper请求处理流程" id="g098aqi8lCMxI5Y2zo_i">
-    <mxGraphModel dx="709" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="4397" dy="3092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-0" />
         <mxCell id="rrakqYdKMgCXBTjs6uMg-1" parent="rrakqYdKMgCXBTjs6uMg-0" />
         <mxCell id="rrakqYdKMgCXBTjs6uMg-2" value=".catch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FED8D8;strokeColor=#FEAAAA;verticalAlign=top;align=left;spacingLeft=5;fontStyle=1;fontSize=20;fontColor=#222222;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
-          <mxGeometry x="1920" y="2670" width="740" height="600" as="geometry" />
+          <mxGeometry x="1920" y="2680" width="740" height="600" as="geometry" />
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-3" value=".then" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e0fed6;strokeColor=#BCFEAF;verticalAlign=top;align=left;spacingLeft=5;fontStyle=1;fontSize=20;fontColor=#222222;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
-          <mxGeometry x="1120" y="2670" width="740" height="600" as="geometry" />
+          <mxGeometry x="1120" y="2680" width="740" height="600" as="geometry" />
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-4" value="requestWrapper 处理响应和错误数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2f3f9;strokeColor=#d2d3d9;verticalAlign=top;align=left;spacingLeft=5;fontStyle=1;fontSize=20;fontColor=#222222;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
           <mxGeometry x="1120" y="635" width="2230" height="1985" as="geometry" />
@@ -1269,13 +1269,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-127" value="res: T" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
-          <mxGeometry x="1380" y="2710" width="160" height="60" as="geometry" />
+          <mxGeometry x="1380" y="2720" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rrakqYdKMgCXBTjs6uMg-1" source="rrakqYdKMgCXBTjs6uMg-129" target="rrakqYdKMgCXBTjs6uMg-133">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-129" value="取res或res.data&lt;br&gt;处理具体业务逻辑" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
-          <mxGeometry x="1230" y="2840" width="460" height="80" as="geometry" />
+          <mxGeometry x="1230" y="2850" width="460" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="rrakqYdKMgCXBTjs6uMg-1" source="rrakqYdKMgCXBTjs6uMg-133" target="rrakqYdKMgCXBTjs6uMg-134">
           <mxGeometry relative="1" as="geometry" />
@@ -1289,26 +1289,26 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-133" value="是否抛出&lt;br&gt;业务逻辑错误" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
-          <mxGeometry x="1400" y="2970" width="120" height="120" as="geometry" />
+          <mxGeometry x="1400" y="2980" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-134" value="返回处理后的数据" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
-          <mxGeometry x="1393.33" y="3150" width="133.33" height="80" as="geometry" />
+          <mxGeometry x="1393.33" y="3160" width="133.33" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="rrakqYdKMgCXBTjs6uMg-1" source="rrakqYdKMgCXBTjs6uMg-136" target="rrakqYdKMgCXBTjs6uMg-138">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-136" value="抛出错误&lt;br&gt;return Promis.reject(err: AxiosError&amp;lt;T&amp;gt;)" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
-          <mxGeometry x="1580" y="3000" width="220" height="60" as="geometry" />
+          <mxGeometry x="1580" y="3010" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-137" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rrakqYdKMgCXBTjs6uMg-1" source="rrakqYdKMgCXBTjs6uMg-138" target="rrakqYdKMgCXBTjs6uMg-143">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-138" value="err: AxiosError&amp;lt;T&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;arcSize=13;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
-          <mxGeometry x="2250" y="2710" width="120" height="60" as="geometry" />
+          <mxGeometry x="2250" y="2720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="rrakqYdKMgCXBTjs6uMg-1" source="rrakqYdKMgCXBTjs6uMg-143" target="rrakqYdKMgCXBTjs6uMg-146">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2310.005" y="3090" as="targetPoint" />
+            <mxPoint x="2310.005" y="3100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-140" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#fed8d8;" vertex="1" connectable="0" parent="rrakqYdKMgCXBTjs6uMg-139">
@@ -1325,18 +1325,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-143" value="错误信息是否已经处理&lt;br&gt;err.code === &#39;handled&#39;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;arcSize=13;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
-          <mxGeometry x="2230" y="2843" width="160" height="160" as="geometry" />
+          <mxGeometry x="2230" y="2853" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="rrakqYdKMgCXBTjs6uMg-1" source="rrakqYdKMgCXBTjs6uMg-145" target="rrakqYdKMgCXBTjs6uMg-146">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2376.6700000000005" y="3130" as="targetPoint" />
+            <mxPoint x="2376.6700000000005" y="3140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-145" value="根据业务逻辑处理错误信息：弹出错误消息或其他操作" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;arcSize=13;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
-          <mxGeometry x="2490" y="2893" width="120" height="60" as="geometry" />
+          <mxGeometry x="2490" y="2903" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-146" value="结束错误处理&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;return Promise.reject(err)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=125;strokeWidth=2;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
-          <mxGeometry x="2230" y="3120" width="160" height="60" as="geometry" />
+          <mxGeometry x="2230" y="3130" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
