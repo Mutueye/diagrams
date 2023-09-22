@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T08:16:07.660Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="LVaqb50LrhkDDSseKVqi" version="21.7.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-22T08:34:13.590Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="pt6ioBK7WF_9w63Zr4hk" version="21.7.2" type="github" pages="4">
   <diagram id="56KtloAM9V0VTO1P35NT" name="1 数据结构梳理">
     <mxGraphModel dx="1866" dy="-65" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -766,7 +766,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="requestWrapper请求处理流程" id="g098aqi8lCMxI5Y2zo_i">
-    <mxGraphModel dx="479" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="309" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-0" />
         <mxCell id="rrakqYdKMgCXBTjs6uMg-1" parent="rrakqYdKMgCXBTjs6uMg-0" />
@@ -892,8 +892,8 @@
         <mxCell id="rrakqYdKMgCXBTjs6uMg-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="rrakqYdKMgCXBTjs6uMg-1" source="rrakqYdKMgCXBTjs6uMg-34" target="rrakqYdKMgCXBTjs6uMg-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rrakqYdKMgCXBTjs6uMg-34" value="构造AxiosError数据：err" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;fillColor=#fed8d8;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
-          <mxGeometry x="1180" y="1430" width="300" height="60" as="geometry" />
+        <mxCell id="rrakqYdKMgCXBTjs6uMg-34" value="返回AxiosError&amp;lt;T&amp;gt;数据&lt;br&gt;const err = new AxiosError(&#39;响应数据为空&#39;, &#39;data_empty&#39;, ...)" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;fillColor=#fed8d8;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
+          <mxGeometry x="1160" y="1430" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=arc;jumpSize=12;" edge="1" parent="rrakqYdKMgCXBTjs6uMg-1" source="rrakqYdKMgCXBTjs6uMg-36" target="rrakqYdKMgCXBTjs6uMg-127">
           <mxGeometry relative="1" as="geometry" />
@@ -976,7 +976,7 @@
         <mxCell id="rrakqYdKMgCXBTjs6uMg-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="rrakqYdKMgCXBTjs6uMg-1" source="rrakqYdKMgCXBTjs6uMg-56" target="rrakqYdKMgCXBTjs6uMg-138">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rrakqYdKMgCXBTjs6uMg-56" value="1. 显示错误信息：err.message&lt;br&gt;2. 修改code，标记为已处理：err.code = &#39;handled&#39;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3. 抛出错误：return Promise.reject(err)" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;arcSize=13;fillColor=#fed8d8;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
+        <mxCell id="rrakqYdKMgCXBTjs6uMg-56" value="1. 调用配置的handleMessage方法显示错误信息：handleMessage(err.message)&lt;br&gt;2. 修改code，标记为已处理：err.code = &#39;handled&#39;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3. 抛出错误：return Promise.reject(err)" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;arcSize=13;fillColor=#fed8d8;" vertex="1" parent="rrakqYdKMgCXBTjs6uMg-1">
           <mxGeometry x="1750" y="2450" width="1120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="rrakqYdKMgCXBTjs6uMg-1" source="rrakqYdKMgCXBTjs6uMg-100" target="rrakqYdKMgCXBTjs6uMg-69">
