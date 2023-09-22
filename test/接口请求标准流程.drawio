@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T02:50:23.063Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="dib5O1WRklW7W0buRdU4" version="21.7.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-22T04:06:50.703Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="p31_Kv2_MRUcQOsy72g6" version="21.7.2" type="github" pages="3">
   <diagram id="56KtloAM9V0VTO1P35NT" name="1 数据结构梳理">
     <mxGraphModel dx="1866" dy="-65" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -77,7 +77,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UqLh-eRut1HAPvm6Cmkq" name="2 请求流程概况图">
-    <mxGraphModel dx="2612" dy="1546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1244" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -172,8 +172,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HvXUN8UpXWEOjuOm0ctd-7" value="错误处理&lt;br&gt;根据具体错误数据，有如下几种情况：&lt;br&gt;1. 返回数据err.response&lt;br&gt;2. 显示常见错误的通用提示消息&lt;br&gt;4. 401时跳转登录或游客首页" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="470" y="940" width="236" height="100" as="geometry" />
+        <mxCell id="HvXUN8UpXWEOjuOm0ctd-7" value="错误处理&lt;br&gt;根据具体错误数据，有如下几种情况：&lt;br&gt;1. 处理错误消息，抛出错误，用于后续显示错误提示&lt;br&gt;2. 400时，有写情况需要返回数据err.response&lt;br&gt;3. 401时 跳转登录或游客首页" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="442" y="940" width="292" height="100" as="geometry" />
         </mxCell>
         <mxCell id="HvXUN8UpXWEOjuOm0ctd-10" value="Promise.then" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="140" y="1120" width="120" height="60" as="geometry" />
