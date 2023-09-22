@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T09:11:41.787Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="zdZL1SjIbFj6XSVgqE5v" version="21.7.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-22T02:50:23.063Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="dib5O1WRklW7W0buRdU4" version="21.7.2" type="github" pages="3">
   <diagram id="56KtloAM9V0VTO1P35NT" name="1 数据结构梳理">
     <mxGraphModel dx="1866" dy="-65" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -77,7 +77,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UqLh-eRut1HAPvm6Cmkq" name="2 请求流程概况图">
-    <mxGraphModel dx="1045" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2612" dy="1546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -106,8 +106,11 @@
         <mxCell id="7YeG37wwZITT4TwZxwtX-2" value="发起请求" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="150" y="60" width="100" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="HvXUN8UpXWEOjuOm0ctd-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7YeG37wwZITT4TwZxwtX-4" target="HvXUN8UpXWEOjuOm0ctd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7YeG37wwZITT4TwZxwtX-4" value="return Promies.reject(err:AxiosError&amp;lt;unknown&amp;gt;)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="426" y="270" width="304" height="60" as="geometry" />
+          <mxGeometry x="426" y="270" width="324" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7YeG37wwZITT4TwZxwtX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7YeG37wwZITT4TwZxwtX-7" target="7YeG37wwZITT4TwZxwtX-13">
           <mxGeometry relative="1" as="geometry">
@@ -130,23 +133,59 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="HvXUN8UpXWEOjuOm0ctd-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7YeG37wwZITT4TwZxwtX-13" target="HvXUN8UpXWEOjuOm0ctd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HvXUN8UpXWEOjuOm0ctd-6" value="失败&lt;br&gt;onRejected" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HvXUN8UpXWEOjuOm0ctd-5">
+          <mxGeometry x="-0.0241" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7YeG37wwZITT4TwZxwtX-13" value="响应拦截器&lt;br&gt;interceptors.response" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="120" y="690" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="5e1_cS6_qBiiAfwvs-Qn-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5e1_cS6_qBiiAfwvs-Qn-1" target="5e1_cS6_qBiiAfwvs-Qn-4">
+        <mxCell id="HvXUN8UpXWEOjuOm0ctd-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5e1_cS6_qBiiAfwvs-Qn-1" target="HvXUN8UpXWEOjuOm0ctd-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5e1_cS6_qBiiAfwvs-Qn-1" value="返回AxiosResponse&amp;lt;T&amp;gt;&lt;br&gt;return res" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="100" y="980" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5e1_cS6_qBiiAfwvs-Qn-4" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="100" y="1120" width="200" height="60" as="geometry" />
+        <mxCell id="HvXUN8UpXWEOjuOm0ctd-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HvXUN8UpXWEOjuOm0ctd-4" target="HvXUN8UpXWEOjuOm0ctd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HvXUN8UpXWEOjuOm0ctd-4" value="return Promies.reject(err:AxiosError&amp;lt;T&amp;gt;)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="426" y="740" width="324" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HvXUN8UpXWEOjuOm0ctd-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HvXUN8UpXWEOjuOm0ctd-7" target="HvXUN8UpXWEOjuOm0ctd-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HvXUN8UpXWEOjuOm0ctd-14" value="抛出错误" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HvXUN8UpXWEOjuOm0ctd-13">
+          <mxGeometry x="-0.05" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HvXUN8UpXWEOjuOm0ctd-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HvXUN8UpXWEOjuOm0ctd-7" target="HvXUN8UpXWEOjuOm0ctd-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HvXUN8UpXWEOjuOm0ctd-16" value="返回数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HvXUN8UpXWEOjuOm0ctd-15">
+          <mxGeometry x="-0.702" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HvXUN8UpXWEOjuOm0ctd-7" value="错误处理&lt;br&gt;根据具体错误数据，有如下几种情况：&lt;br&gt;1. 返回数据err.response&lt;br&gt;2. 显示常见错误的通用提示消息&lt;br&gt;4. 401时跳转登录或游客首页" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="470" y="940" width="236" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HvXUN8UpXWEOjuOm0ctd-10" value="Promise.then" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HvXUN8UpXWEOjuOm0ctd-12" value="Promise.catch" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="528" y="1120" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="3 请求详细处理流程" id="xQtrfD_Nb6HlviRhQj4i">
-    <mxGraphModel dx="2904" dy="2209" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="7880" dy="5153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
