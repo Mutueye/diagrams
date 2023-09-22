@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T04:07:53.407Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="dWaY-GH0vJrW7_Io1V7z" version="21.7.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-22T04:09:27.865Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="03VW4goFVNH_LP0yYeCQ" version="21.7.2" type="github" pages="3">
   <diagram id="56KtloAM9V0VTO1P35NT" name="1 数据结构梳理">
     <mxGraphModel dx="1866" dy="-65" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -77,7 +77,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UqLh-eRut1HAPvm6Cmkq" name="2 请求流程概况图">
-    <mxGraphModel dx="1244" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2009" dy="1189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -165,11 +165,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HvXUN8UpXWEOjuOm0ctd-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HvXUN8UpXWEOjuOm0ctd-7" target="HvXUN8UpXWEOjuOm0ctd-10">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="990" />
+              <mxPoint x="330" y="1150" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="HvXUN8UpXWEOjuOm0ctd-16" value="返回数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HvXUN8UpXWEOjuOm0ctd-15">
+        <mxCell id="HvXUN8UpXWEOjuOm0ctd-16" value="返回数据&lt;br&gt;err.response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HvXUN8UpXWEOjuOm0ctd-15">
           <mxGeometry x="-0.702" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-11" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HvXUN8UpXWEOjuOm0ctd-7" value="错误处理&lt;br&gt;根据具体错误数据，有如下几种情况：&lt;br&gt;1. 处理错误消息，抛出错误，用于后续显示错误提示&lt;br&gt;2. 400时，有些情况需要返回数据err.response&lt;br&gt;3. 401时 跳转登录或游客首页" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
