@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-25T01:29:41.814Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="DbnS-qivJ4WF-HRaoc9s" version="21.8.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-25T03:04:29.308Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="afL1cz2lcpC03uMV47VZ" version="21.8.0" type="github" pages="4">
   <diagram id="56KtloAM9V0VTO1P35NT" name="1 数据结构梳理">
     <mxGraphModel dx="1306" dy="-396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -766,7 +766,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="requestWrapper请求处理流程" id="g098aqi8lCMxI5Y2zo_i">
-    <mxGraphModel dx="914" dy="1031" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="4397" dy="3092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-0" />
         <mxCell id="rrakqYdKMgCXBTjs6uMg-1" parent="rrakqYdKMgCXBTjs6uMg-0" />
@@ -850,10 +850,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rrakqYdKMgCXBTjs6uMg-21" value="Promise.then&lt;br&gt;onFulfilled / onRejected" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;" parent="rrakqYdKMgCXBTjs6uMg-1" vertex="1">
+        <mxCell id="rrakqYdKMgCXBTjs6uMg-21" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Promise.then&lt;/font&gt;&lt;/b&gt;&lt;br&gt;onFulfilled / onRejected" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;" parent="rrakqYdKMgCXBTjs6uMg-1" vertex="1">
           <mxGeometry x="1559" y="680" width="182" height="182" as="geometry" />
         </mxCell>
-        <mxCell id="rrakqYdKMgCXBTjs6uMg-22" value="请求拦截器&lt;br&gt;interceptors.request" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;" parent="rrakqYdKMgCXBTjs6uMg-1" vertex="1">
+        <mxCell id="rrakqYdKMgCXBTjs6uMg-22" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;请求拦截器&lt;br&gt;interceptors.request&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;" parent="rrakqYdKMgCXBTjs6uMg-1" vertex="1">
           <mxGeometry x="1559" y="228" width="182" height="182" as="geometry" />
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="rrakqYdKMgCXBTjs6uMg-1" source="rrakqYdKMgCXBTjs6uMg-24" target="rrakqYdKMgCXBTjs6uMg-29" edge="1">
@@ -974,7 +974,7 @@
         <mxCell id="rrakqYdKMgCXBTjs6uMg-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="rrakqYdKMgCXBTjs6uMg-1" source="rrakqYdKMgCXBTjs6uMg-56" target="rrakqYdKMgCXBTjs6uMg-138" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rrakqYdKMgCXBTjs6uMg-56" value="Promise.catch(err: AxiosError&amp;lt;T&amp;gt;)&lt;br&gt;&lt;br&gt;1. 调用配置的handleMessage方法显示错误信息：handleMessage(err.message)&lt;br&gt;2. 修改code，标记为已处理：err.code = &#39;handled&#39;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3. 抛出错误：return Promise.reject(err)" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;arcSize=13;fillColor=#fed8d8;" parent="rrakqYdKMgCXBTjs6uMg-1" vertex="1">
+        <mxCell id="rrakqYdKMgCXBTjs6uMg-56" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Promise.catch(err: AxiosError&amp;lt;T&amp;gt;)&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;1. 调用配置的handleMessage方法显示错误信息：handleMessage(err.message)&lt;br&gt;2. 修改code，标记为已处理：err.code = &#39;handled&#39;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3. 抛出错误：return Promise.reject(err)" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=2;arcSize=13;fillColor=#fed8d8;" parent="rrakqYdKMgCXBTjs6uMg-1" vertex="1">
           <mxGeometry x="1750" y="2450" width="1120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="rrakqYdKMgCXBTjs6uMg-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="rrakqYdKMgCXBTjs6uMg-1" source="rrakqYdKMgCXBTjs6uMg-100" target="rrakqYdKMgCXBTjs6uMg-69" edge="1">
